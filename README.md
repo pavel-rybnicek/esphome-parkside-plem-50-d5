@@ -1,8 +1,8 @@
-# esphome-parkside-plem-50-c2
-Parkside PLEM 50 C2 laser range finder UART Integration for ESPHome
+# esphome-parkside-plem-50-d5
+Parkside PLEM 50 D5 laser range finder UART Integration for ESPHome
 
 ## Description
-Parkside PLEM 50 C2 is a cheap (around €30) laser finder. I find this one very useful for monitoring water levels in water tanks and drainages.
+Parkside PLEM 50 D5 is a cheap (€10-€20) laser finder. I find this one very useful for monitoring water levels in water tanks and drainages.
 
 The device consist of laser sensor module and main PCB + display module. Laser module is connected to main board with 4-conductor 1mm FFC cable - UART interface.  
 For ESPHome integration we need the laser sensor module only.
