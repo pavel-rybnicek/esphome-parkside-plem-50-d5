@@ -2,7 +2,7 @@ uart:
   id: uart_bus
   tx_pin: GPIO15
   rx_pin: GPIO13
-  baud_rate: 9600
+  baud_rate: 115200
   parity: NONE
   stop_bits: 1
   data_bits: 8
@@ -16,11 +16,11 @@ uart:
 external_components:
   source:
     type: git
-    url: https://github.com/pavel-rybnicek/esphome-parkside-plem-50-c2/
+    url: https://github.com/pavel-rybnicek/esphome-parkside-plem-50-d5/
     ref: main
 
-parkside_plem_50_c2:
-  id: parkside_plem_50_c2_id
+parkside_plem_50_d5:
+  id: parkside_plem_50_d5_id
   uart_id: uart_bus
   update_interval: 20s
 
@@ -29,8 +29,8 @@ parkside_plem_50_c2:
 
   # sensors names
   distance:
-    name: "Parkside PLEM 50 C2 - Distance"
+    name: "Parkside PLEM 50 D5 - Distance"
     unit_of_measurement: "mm"
   error:
     # indicates error of measurement
-    name: "Parkside PLEM 50 C2 - Error message"
+    name: "Parkside PLEM 50 D5 - Error message"
