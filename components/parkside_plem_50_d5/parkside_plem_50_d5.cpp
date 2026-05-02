@@ -99,7 +99,7 @@ int ParksidePlem50D5Component::process_measurement (const char * measurement)
   // where 000621000 is something (doesn't matter)
   // 00584 is distance from sensor head in mm
   // 16 is BCD checksum
-  if (!strncmp ("<0E", measurement, 3)) // TODO
+  if (!strncmp ("<0E", measurement, 3)) // TODO this is remnant from C2 variant
   {
     this->process_error (measurement, "Error received");
     return -1;
